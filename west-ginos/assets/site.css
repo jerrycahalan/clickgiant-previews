@@ -528,3 +528,6 @@ div.case:hover{transform:none;border-color:var(--line)}
 .checks.dark-text li{display:block;position:relative;padding-left:30px}
 .checks.dark-text li::before{position:absolute;left:0;top:4px;margin:0;width:18px;height:18px}
 .steps li:last-child{grid-column:1/-1}
+.topbar .espanol{margin-left:14px;padding-left:14px;border-left:1px solid rgba(255,255,255,.25);color:#fff;font-weight:600;text-decoration:none}
+.topbar .espanol:hover{text-decoration:underline}
+@container site (max-width: 560px){.topbar .espanol{display:block;margin:4px 0 0;padding:0;border:0;text-align:center}}
