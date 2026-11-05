@@ -312,7 +312,11 @@ nav.primary a:hover{color:#fff}
 .dl b small{font-size:.5em;color:var(--blue)}
 .dl h3{font:700 19px/1.2 var(--f-body);color:var(--text)}
 .dl p{font-size:14.5px;color:var(--muted)}
-.dl code{font-size:12px;color:var(--muted);background:var(--paper);padding:2px 6px;border-radius:3px}
+.dl .cite{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 10px;align-items:baseline;margin-top:6px;padding-top:12px;border-top:1px solid var(--line);text-decoration:none;color:var(--muted)}
+.cite-label{grid-row:span 2;font:700 10.5px/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--navy);border:1.5px solid var(--navy);border-radius:3px;padding:5px 7px;align-self:center}
+.cite-ref{font:700 14px var(--f-body);color:var(--navy);font-style:normal}
+.cite-name{font-size:12.5px;color:var(--muted)}
+.dl .cite:hover .cite-ref{color:var(--blue);text-decoration:underline}
 .comp{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:36px}
 .comp-col{border-top:4px solid var(--navy);padding-top:20px;display:grid;gap:12px;align-content:start}
 .comp-col h3{font:700 26px var(--f-display);color:var(--navy)}
@@ -788,11 +792,11 @@ footer.site-foot{background:var(--ink);color:var(--on-dark-muted);font-size:14px
 
 <!-- 11 STATUTE OF LIMITATIONS -->
 <section class="band"><div class="wrap">
-  <div class="section-head"><span class="eyebrow">Deadlines</span><h2 class="h-lg" style="color:var(--navy)">How long do you have to file in Illinois?</h2><p class="lede">Illinois gives you less time than you might think. Missouri allows five years. Illinois allows two, and sometimes only one. <span class="flag">Verify before publishing</span></p></div>
+  <div class="section-head"><span class="eyebrow">Deadlines</span><h2 class="h-lg" style="color:var(--navy)">How long do you have to file in Illinois?</h2><p class="lede">Illinois gives you less time than you might think. Missouri allows five years. Illinois allows two, and sometimes only one. </p></div>
   <div class="deadline">
-    <div class="dl"><b>2 <small>years</small></b><h3>Most personal injury claims</h3><p>From the date of the injury, including car accidents, dog bites and falls.</p><code>735 ILCS 5/13-202</code></div>
-    <div class="dl"><b>2 <small>years</small></b><h3>Wrongful death</h3><p>Generally measured from the date of death.</p><code>740 ILCS 180/2</code></div>
-    <div class="dl"><b>1 <small>year</small></b><h3>Claims against a town, county or school</h3><p>Injuries involving a local government have a shorter deadline.</p><code>745 ILCS 10/8-101</code></div>
+    <div class="dl"><b>2 <small>years</small></b><h3>Most personal injury claims</h3><p>From the date of the injury, including car accidents, dog bites and falls.</p><a class="cite" href="https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=073500050K13-202" target="_blank" rel="noopener" title="Read Illinois Code of Civil Procedure on the Illinois General Assembly website"><span class="cite-label">Source</span><span class="cite-ref">735 ILCS 5/13-202</span><span class="cite-name">Illinois Code of Civil Procedure ↗</span></a></div>
+    <div class="dl"><b>2 <small>years</small></b><h3>Wrongful death</h3><p>Generally measured from the date of death.</p><a class="cite" href="https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=074001800K2" target="_blank" rel="noopener" title="Read Illinois Wrongful Death Act on the Illinois General Assembly website"><span class="cite-label">Source</span><span class="cite-ref">740 ILCS 180/2</span><span class="cite-name">Illinois Wrongful Death Act ↗</span></a></div>
+    <div class="dl"><b>1 <small>year</small></b><h3>Claims against a town, county or school</h3><p>Injuries involving a local government have a shorter deadline.</p><a class="cite" href="https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=074500100K8-101" target="_blank" rel="noopener" title="Read Illinois Tort Immunity Act on the Illinois General Assembly website"><span class="cite-label">Source</span><span class="cite-ref">745 ILCS 10/8-101</span><span class="cite-name">Illinois Tort Immunity Act ↗</span></a></div>
   </div>
   <div class="btn-row" style="margin-top:28px"><a class="btn btn-primary" href="#contact">Check your deadline: free injury review</a></div>
 </div></section>
