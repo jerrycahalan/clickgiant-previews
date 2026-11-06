@@ -9,7 +9,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(HERE, '..', 'west-ginos')
 PAGES = [
     ('home.html', 'index.html', 'West &amp; Ginos Homepage A', 'Homepage (approved)'),
-    ('car-accidents.html', 'car-accidents/index.html', 'Car Accident Lawyers | West &amp; Ginos Preview', 'Car Accidents page (draft 1)'),
+    ('car-accidents.html', 'car-accidents/index.html', 'Car Accident Lawyers | West &amp; Ginos Preview', 'Car Accidents page (approved)'),
+    ('truck-accidents.html', 'truck-accidents/index.html', 'Truck Accident Lawyers | West &amp; Ginos Preview', 'Truck Accidents page (draft 1)'),
+    ('dog-bites.html', 'dog-bites/index.html', 'Dog Bite Lawyers | West &amp; Ginos Preview', 'Dog Bites page (draft 1)'),
+    ('slip-trip-fall.html', 'slip-trip-fall/index.html', 'Slip, Trip &amp; Fall Lawyers | West &amp; Ginos Preview', 'Slip, Trip &amp; Fall page (draft 1)'),
 ]
 HEAD = '''<!doctype html>
 <html lang="en">
