@@ -11,4 +11,5 @@ Static design mockups for ClickGiant clients, published with GitHub Pages at htt
 - Client copy rule: use the full firm name "Law Offices of West & Ginos, LLC" (never just "West & Ginos" in body copy).
 - Keep yellow `<span class="flag">` tags on anything the client still needs to approve.
 - Every page carries `<meta name="robots" content="noindex, nofollow, noarchive">`.
+- The page plan and its status live in `_build/PLAN.md`. Read it before building, and update it after.
 - After pushing, GitHub Pages republishes in about a minute.
