@@ -542,3 +542,55 @@ div.case:hover{transform:none;border-color:var(--line)}
 .press a:hover b{color:var(--blue)}
 .press a span{font-size:14.5px;color:var(--muted)}
 @container site (max-width:820px){.press{grid-template-columns:minmax(0,1fr);gap:8px}.press ul{grid-template-columns:minmax(0,1fr)}}
+
+/* attorney bios */
+.attorney h3 a{color:inherit;text-decoration:none}.attorney h3 a:hover{color:var(--blue)}
+.bio-hero{background:var(--ink);color:#fff;padding:56px 0 64px}
+.bio-hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);gap:56px;align-items:center}
+.bio-hero h1 em{font-style:normal;color:var(--blue-hi)}
+.bio-hero .lede{color:#c9d8e6;max-width:60ch}
+.bio-hero .btn-ghost{color:#fff;border-color:rgba(255,255,255,.5)}
+.bio-facts{list-style:none;margin:6px 0 4px;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.bio-facts li{border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:12px 14px;display:grid;gap:3px;align-content:start}
+.bio-facts b{font:800 19px/1.1 var(--f-display);color:#fff}
+.bio-facts span{font-size:13px;color:var(--on-dark-muted);line-height:1.35}
+.bio-photo{margin:0;border-radius:8px;overflow:hidden;aspect-ratio:4/5;background:var(--navy);box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.bio-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block}
+.bio-prose h2{margin-top:30px}.bio-prose h2:first-child{margin-top:0}
+.pa-links{list-style:none;margin:6px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.pa-links a{display:block;background:#fff;border:1.5px solid var(--line);border-radius:6px;padding:14px 16px;font-weight:700;color:var(--navy);text-decoration:none}
+.pa-links a:hover{border-color:var(--blue);color:var(--blue)}
+.next-attorney{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:22px;align-items:center;border:1.5px solid var(--line);border-radius:8px;padding:18px 24px;color:inherit;text-decoration:none}
+.next-attorney:hover{border-color:var(--blue)}
+.next-attorney img{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:50% 20%}
+.next-attorney small{display:block;font:700 12px var(--f-body);letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
+.next-attorney b{display:block;font:800 28px/1.1 var(--f-display);color:var(--navy);text-transform:uppercase}
+.next-attorney span span{color:var(--muted);font-size:15px}
+.next-attorney .arrow{font-size:30px;color:var(--blue)}
+/* compare table */
+.compare-wrap{margin-top:36px}
+.compare{width:100%;border-collapse:collapse;font-size:16px}
+.compare th,.compare td{text-align:left;padding:16px 18px;border-bottom:1.5px solid var(--line);vertical-align:top}
+.compare thead th{font:700 13px var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.compare thead th.us{color:#fff;background:var(--navy);border-radius:6px 6px 0 0}
+.compare tbody th{font-weight:700;color:var(--navy);width:30%}
+.compare td.us{background:#eef5fc;color:var(--navy);font-weight:600}
+.compare td:not(.us){color:var(--muted)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@container site (max-width:820px){
+  .bio-hero{padding:32px 0 44px}
+  .bio-hero .wrap{grid-template-columns:minmax(0,1fr);gap:28px}
+  .bio-photo{order:-1;max-width:300px;aspect-ratio:1/1}
+  .bio-facts,.pa-links{grid-template-columns:minmax(0,1fr)}
+  .next-attorney{grid-template-columns:64px minmax(0,1fr);padding:16px}
+  .next-attorney img{width:64px;height:64px}
+  .next-attorney .arrow{display:none}
+  .next-attorney b{font-size:22px}
+  .compare thead{display:none}
+  .compare,.compare tbody,.compare tr,.compare th,.compare td{display:block;width:100%}
+  .compare tr{border:1.5px solid var(--line);border-radius:6px;margin-bottom:12px;overflow:hidden}
+  .compare th,.compare td{border:0;padding:10px 14px}
+  .compare tbody th{width:auto;background:var(--paper)}
+  .compare td.us::before{content:"West & Ginos: ";font-weight:800}
+  .compare td:not(.us)::before{content:"High-volume firm: ";font-weight:700}
+}

@@ -13,6 +13,9 @@ PAGES = [
     ('truck-accidents.html', 'truck-accidents/index.html', 'Truck Accident Lawyers | West &amp; Ginos Preview', 'Truck Accidents page (draft 1)'),
     ('dog-bites.html', 'dog-bites/index.html', 'Dog Bite Lawyers | West &amp; Ginos Preview', 'Dog Bites page (draft 1)'),
     ('slip-trip-fall.html', 'slip-trip-fall/index.html', 'Slip, Trip &amp; Fall Lawyers | West &amp; Ginos Preview', 'Slip, Trip &amp; Fall page (draft 1)'),
+    ('why-choose-us.html', 'why-choose-us/index.html', 'Why Choose Us | West &amp; Ginos Preview', 'Why Choose Us page (draft 1)'),
+    ('trent-west.html', 'attorneys/trent-west/index.html', 'Trent S. West | West &amp; Ginos Preview', 'Trent West bio (draft 1)'),
+    ('michael-ginos.html', 'attorneys/michael-ginos/index.html', 'Michael G. Ginos | West &amp; Ginos Preview', 'Michael Ginos bio (draft 1)'),
 ]
 HEAD = '''<!doctype html>
 <html lang="en">
