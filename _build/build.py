@@ -16,6 +16,8 @@ PAGES = [
     ('why-choose-us.html', 'why-choose-us/index.html', 'Why Choose Us | West &amp; Ginos Preview', 'Why Choose Us page (draft 1)'),
     ('trent-west.html', 'attorneys/trent-west/index.html', 'Trent S. West | West &amp; Ginos Preview', 'Trent West bio (draft 1)'),
     ('michael-ginos.html', 'attorneys/michael-ginos/index.html', 'Michael G. Ginos | West &amp; Ginos Preview', 'Michael Ginos bio (draft 1)'),
+    ('contact.html', 'contact/index.html', 'Contact Us | West &amp; Ginos Preview', 'Contact page (draft 1)'),
+    ('attorney-referrals.html', 'attorney-referrals/index.html', 'Attorney Referrals | West &amp; Ginos Preview', 'Attorney Referrals page (draft 1)'),
 ]
 HEAD = '''<!doctype html>
 <html lang="en">

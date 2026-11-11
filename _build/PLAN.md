@@ -26,8 +26,8 @@ Preview base: https://mockups.clickgiant.com/west-ginos/
 | 1 | Why Choose Us | `why-choose-us/` | sent 2026-11-11 | |
 | 1 | Trent S. West bio | `attorneys/trent-west/` | sent 2026-11-11 | Asked: federal courts |
 | 1 | Michael G. Ginos bio | `attorneys/michael-ginos/` | sent 2026-11-11 | Asked: federal courts; OK to name Gori + $7.1M verdict |
-| 2 | Contact | `contact/` | todo | Both offices (Litchfield 413 N. State St., Litchfield, IL 62056; Nokomis 320 West Central St., Nokomis, IL 62075), phones, map links, form. Hours: flag "Confirm hours". |
-| 2 | Attorney Referrals | `attorney-referrals/` | todo | Modeled on gideonasen.com. Proof: ~1 in 2 injury cases referred by other attorneys. Referral-fee wording must follow Illinois RPC 1.5(e); verify on the official source and flag for Trent. |
+| 2 | Contact | `contact/` | built | Both offices (Litchfield 413 N. State St., Litchfield, IL 62056; Nokomis 320 West Central St., Nokomis, IL 62075), phones, map links, form. Hours: flag "Confirm hours". Built with flags: Confirm hours (both offices), Confirm walk-in policy. |
+| 2 | Attorney Referrals | `attorney-referrals/` | built | Modeled on gideonasen.com. Proof: ~1 in 2 injury cases referred by other attorneys. Referral-fee wording must follow Illinois RPC 1.5(e); verify on the official source and flag for Trent. Rule 1.5(e) summary checked against the Illinois Courts article (illinoiscourts.gov News/1148); flags: Trent to approve wording, Trent to confirm fee payment timing. |
 | 3 | Workers' Compensation | `workers-compensation/` | todo | Illinois Workers' Compensation Act, 820 ILCS 305. Note the difference from a regular injury claim (no fault, the Commission, not a jury). |
 | 3 | Mesothelioma | `mesothelioma/` | todo | Michael's complex-litigation background (Gori). No invented results. |
 | 3 | Nursing Home Abuse | `nursing-home-abuse/` | todo | Illinois Nursing Home Care Act, 210 ILCS 45. |
@@ -71,3 +71,4 @@ Preview base: https://mockups.clickgiant.com/west-ginos/
 
 ## Log
 - 2026-11-11: Batch 1 (Why Choose Us + both bios) built and sent to Trent and Michael.
+- 2026-11-11 (scheduled run): No client replies needed (latest messages in both threads are Jerry's). Built batch 2 (Contact, Attorney Referrals); nav, footer and homepage links now point to them. Not sent yet: batch 1 is still waiting on the client.
