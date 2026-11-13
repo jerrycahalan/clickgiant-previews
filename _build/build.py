@@ -22,6 +22,11 @@ PAGES = [
     ('mesothelioma.html', 'mesothelioma/index.html', 'Mesothelioma Lawyers | West &amp; Ginos Preview', 'Mesothelioma page (draft 1)'),
     ('nursing-home-abuse.html', 'nursing-home-abuse/index.html', 'Nursing Home Abuse Lawyers | West &amp; Ginos Preview', 'Nursing Home Abuse page (draft 1)'),
     ('product-liability.html', 'product-liability/index.html', 'Product Liability Lawyers | West &amp; Ginos Preview', 'Product Liability page (draft 1)'),
+    ('motorcycle-accidents.html', 'motorcycle-accidents/index.html', 'Motorcycle Accident Lawyers | West &amp; Ginos Preview', 'Motorcycle Accidents page (draft 1)'),
+    ('pedestrian-accidents.html', 'pedestrian-accidents/index.html', 'Pedestrian Accident Lawyers | West &amp; Ginos Preview', 'Pedestrian Accidents page (draft 1)'),
+    ('wrongful-death.html', 'wrongful-death/index.html', 'Wrongful Death Lawyers | West &amp; Ginos Preview', 'Wrongful Death page (draft 1)'),
+    ('catastrophic-injury.html', 'catastrophic-injury/index.html', 'Catastrophic Injury Lawyers | West &amp; Ginos Preview', 'Catastrophic Injury page (draft 1)'),
+    ('boating-accidents.html', 'boating-accidents/index.html', 'Boating Accident Lawyers | West &amp; Ginos Preview', 'Boating Accidents page (draft 1)'),
 ]
 HEAD = '''<!doctype html>
 <html lang="en">
