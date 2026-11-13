@@ -18,6 +18,10 @@ PAGES = [
     ('michael-ginos.html', 'attorneys/michael-ginos/index.html', 'Michael G. Ginos | West &amp; Ginos Preview', 'Michael Ginos bio (draft 2)'),
     ('contact.html', 'contact/index.html', 'Contact Us | West &amp; Ginos Preview', 'Contact page (draft 1)'),
     ('attorney-referrals.html', 'attorney-referrals/index.html', 'Attorney Referrals | West &amp; Ginos Preview', 'Attorney Referrals page (draft 1)'),
+    ('workers-compensation.html', 'workers-compensation/index.html', "Workers' Compensation Lawyers | West &amp; Ginos Preview", "Workers' Compensation page (draft 1)"),
+    ('mesothelioma.html', 'mesothelioma/index.html', 'Mesothelioma Lawyers | West &amp; Ginos Preview', 'Mesothelioma page (draft 1)'),
+    ('nursing-home-abuse.html', 'nursing-home-abuse/index.html', 'Nursing Home Abuse Lawyers | West &amp; Ginos Preview', 'Nursing Home Abuse page (draft 1)'),
+    ('product-liability.html', 'product-liability/index.html', 'Product Liability Lawyers | West &amp; Ginos Preview', 'Product Liability page (draft 1)'),
 ]
 HEAD = '''<!doctype html>
 <html lang="en">
