@@ -38,6 +38,10 @@ PAGES = [
     ('edwardsville-il.html', 'edwardsville-il/index.html', 'Edwardsville Personal Injury Lawyers | West &amp; Ginos Preview', 'Edwardsville page (draft 1)'),
     ('taylorville-il.html', 'taylorville-il/index.html', 'Taylorville Personal Injury Lawyers | West &amp; Ginos Preview', 'Taylorville page (draft 1)'),
     ('vandalia-il.html', 'vandalia-il/index.html', 'Vandalia Personal Injury Lawyers | West &amp; Ginos Preview', 'Vandalia page (draft 1)'),
+    ('effingham-il.html', 'effingham-il/index.html', 'Effingham Personal Injury Lawyers | West &amp; Ginos Preview', 'Effingham page (draft 1)'),
+    ('greenville-il.html', 'greenville-il/index.html', 'Greenville Personal Injury Lawyers | West &amp; Ginos Preview', 'Greenville page (draft 1)'),
+    ('staunton-il.html', 'staunton-il/index.html', 'Staunton Personal Injury Lawyers | West &amp; Ginos Preview', 'Staunton page (draft 1)'),
+    ('mt-olive-il.html', 'mt-olive-il/index.html', 'Mt. Olive Personal Injury Lawyers | West &amp; Ginos Preview', 'Mt. Olive page (draft 1)'),
 ]
 HEAD = '''<!doctype html>
 <html lang="en">
