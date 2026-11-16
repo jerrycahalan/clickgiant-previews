@@ -34,6 +34,10 @@ PAGES = [
     ('nokomis-il.html', 'nokomis-il/index.html', 'Nokomis Personal Injury Lawyers | West &amp; Ginos Preview', 'Nokomis page (draft 1)'),
     ('hillsboro-il.html', 'hillsboro-il/index.html', 'Hillsboro Personal Injury Lawyers | West &amp; Ginos Preview', 'Hillsboro page (draft 1)'),
     ('carlinville-il.html', 'carlinville-il/index.html', 'Carlinville Personal Injury Lawyers | West &amp; Ginos Preview', 'Carlinville page (draft 1)'),
+    ('springfield-il.html', 'springfield-il/index.html', 'Springfield Personal Injury Lawyers | West &amp; Ginos Preview', 'Springfield page (draft 1)'),
+    ('edwardsville-il.html', 'edwardsville-il/index.html', 'Edwardsville Personal Injury Lawyers | West &amp; Ginos Preview', 'Edwardsville page (draft 1)'),
+    ('taylorville-il.html', 'taylorville-il/index.html', 'Taylorville Personal Injury Lawyers | West &amp; Ginos Preview', 'Taylorville page (draft 1)'),
+    ('vandalia-il.html', 'vandalia-il/index.html', 'Vandalia Personal Injury Lawyers | West &amp; Ginos Preview', 'Vandalia page (draft 1)'),
 ]
 HEAD = '''<!doctype html>
 <html lang="en">
