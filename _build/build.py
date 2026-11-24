@@ -30,6 +30,7 @@ PAGES = [
     ('wrongful-death.html', 'wrongful-death/index.html', 'Wrongful Death Lawyers | West &amp; Ginos Preview', 'Wrongful Death page (draft 1)'),
     ('catastrophic-injury.html', 'catastrophic-injury/index.html', 'Catastrophic Injury Lawyers | West &amp; Ginos Preview', 'Catastrophic Injury page (draft 1)'),
     ('boating-accidents.html', 'boating-accidents/index.html', 'Boating Accident Lawyers | West &amp; Ginos Preview', 'Boating Accidents page (draft 1)'),
+    ('dram-shop.html', 'dram-shop/index.html', 'Dram Shop Lawyers | West &amp; Ginos Preview', 'Dram Shop page (draft 1)'),
     ('litchfield-il.html', 'litchfield-il/index.html', 'Litchfield Personal Injury Lawyers | West &amp; Ginos Preview', 'Litchfield page (draft 1)'),
     ('nokomis-il.html', 'nokomis-il/index.html', 'Nokomis Personal Injury Lawyers | West &amp; Ginos Preview', 'Nokomis page (draft 1)'),
     ('hillsboro-il.html', 'hillsboro-il/index.html', 'Hillsboro Personal Injury Lawyers | West &amp; Ginos Preview', 'Hillsboro page (draft 1)'),
